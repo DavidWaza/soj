@@ -88,3 +88,19 @@ background: white;
   align-items: center;
   padding-top: 10%;
 }
+
+.hover-target {
+  position: relative;
+}
+
+#hover-content {
+  position: absolute;
+  display: none;
+  pointer-events: none;
+  z-index: 1000; 
+}
+
+.hover-target:hover + #hover-content {
+  display: block;
+}
+
