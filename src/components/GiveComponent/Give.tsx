@@ -6,15 +6,15 @@ const DirtyFont = local({ src: "../../../public/fonts/Dirtyline.otf" });
 const Give = () => {
   return (
     <div className="mx-2">
-      <div className="give-bg lg:w-[50%] m-auto">
+      <div className="give-bg 2xl:w-[50%] lg:w-[80%] w-full m-auto">
         <div className="grid lg:grid-cols-2">
-          <div className="w-full rounded-[60px] p-10 border bg-transparent">
+          <div className="w-full rounded-[60px] p-10 border bg-[#00000012]">
             <p
               className={`lg:text-[80.43px] text-[40px] ${DirtyFont.className}`}
             >
               give
             </p>
-            <p className={`text-[33px] pt-20`}>
+            <p className={`text-[33px] pt-[8rem] leading-[40.26px] font-medium`}>
               Generosity is a <br />
               form of worship
             </p>

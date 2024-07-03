@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,22 +28,25 @@ background: white;
   }
 }
 
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
 .soj-banner {
   background-image: url("/assets/soj-expression.png");
-  height: 50rem;
+  height: 100vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   width: 100%;
-  top: -10px;
+  top: -0.1px;
   padding: 0;
   margin: 0;
   z-index: -1;
 }
 .text-container {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   left: 0;
   right: 0;
   color: white;
@@ -63,7 +67,7 @@ background: white;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  padding: 30px;
+  padding: 20px;
   border-radius: 60px;
 }
 .map {

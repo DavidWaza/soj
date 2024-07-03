@@ -15,7 +15,7 @@ const About = () => {
               >
                 About soj abuja
               </p>
-              <div className="lg:pt-[27rem]">
+              <div className="2xl:pt-[27rem] pt-[3rem]">
                 <p className="font-medium text-lg text-black">
                   SOJ Abuja is a branch of the church made up of people from
                   many ethnic backgrounds and nationalities with a strong

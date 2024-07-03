@@ -7,11 +7,11 @@ const Banner = () => {
     <div>
       <div className="soj-banner">
         <div
-          className={`text-container !bottom-8 text-[4rem] md:text-[8rem] ${DirtyFont.className}`}
+          className={`text-container !bottom-10 text-[4rem] md:text-[96px] ${DirtyFont.className}`}
         >
-          SOJ Abuja
+          soj Abuja
         </div>
-        <div className="text-container md:text-[1.5rem]">
+        <div className="text-container  md:text-[16px] font-medium">
           What God cannot do, does not exits
         </div>
       </div>
